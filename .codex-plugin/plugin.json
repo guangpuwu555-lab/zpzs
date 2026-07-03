@@ -1,0 +1,23 @@
+{
+  "name": "zhaopin-zhushou",
+  "version": "0.1.0",
+  "description": "BOSS 直聘候选人筛选、标记与复盘记录插件",
+  "author": {
+    "name": "GST"
+  },
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "招聘助手",
+    "shortDescription": "BOSS直聘候选人筛选、标记与复盘记录",
+    "longDescription": "招聘助手把 BOSS 直聘候选人筛选流程封装为 Codex 插件：先读取本地筛选执行器配置，再锁定 BOSS 直聘桌面应用执行候选人卡片识别、详情页评分、打招呼标记和筛选结果复盘记录。适用于按目标岗位、学校规则、AI深度筛选和筛选建议持续筛选候选人。",
+    "developerName": "GST",
+    "category": "Productivity",
+    "capabilities": ["Interactive", "Write"],
+    "defaultPrompt": [
+      "使用招聘助手，按当前工具配置执行 BOSS 直聘筛选。",
+      "使用招聘助手，继续筛选并记录候选人结果。",
+      "使用招聘助手，更新本轮招聘筛选规则。"
+    ],
+    "brandColor": "#13B8B2"
+  }
+}
