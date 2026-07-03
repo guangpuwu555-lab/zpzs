@@ -1,0 +1,7 @@
+interface:
+  display_name: "招聘助手"
+  short_description: "BOSS直聘候选人筛选、标记与复盘记录"
+  default_prompt: "Use $zhaopin-zhushou to screen BOSS 直聘 candidates from the configured recruiting tool."
+
+policy:
+  allow_implicit_invocation: true
